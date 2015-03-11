@@ -27,9 +27,6 @@
 		],
 		"right": [
 			{
-				"function": "powerline.segments.common.time.date"
-			},
-			{
 				"function": "powerline.segments.shell.last_pipe_status",
 				"priority": 10
 			},
