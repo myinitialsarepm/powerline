@@ -1,6 +1,6 @@
 {
 	"segments": {
-		"right": [
+	"right": [
 			{
 				"function": "powerline.segments.common.sys.uptime",
 				"priority": 50,
@@ -13,7 +13,8 @@
 				"priority": 50
 			},
 			{
-				"function": "powerline.segments.common.time.date"
+				"function": "powerline.segments.common.time.date",
+				"before": "🗓  "
 			},
 			{
 				"function": "powerline.segments.common.time.date",
@@ -30,7 +31,11 @@
 				}
 			},
 			{
-				"function": "powerline.segments.common.bat.battery"
+				"function": "powerline.segments.common.bat.battery",
+				"args": {
+					"online": "⚡️ ",
+					"offline": "🔋 "
+				}
 			}
 		]
 	}
